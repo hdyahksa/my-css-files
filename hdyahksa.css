@@ -344,8 +344,8 @@ img {
 #tabbyPromoWrapper,
 .tamara-product-widget {
 border-radius:12px;
-max-width: var(--max-width);
-  min-width: var(--min-width);
+max-width: var(--max-width !important);
+  min-width: var(--min-width) !important;
   max-height: var(--max-height);
   min-height: var(--min-height);
       position: relative;

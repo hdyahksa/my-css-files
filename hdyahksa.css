@@ -1,0 +1,483 @@
+img.logo-normal {
+object-fit:contain;
+
+}
+
+.s-block--circle-links {
+margin-top:1rem;
+width:100%;
+}
+.s-block--circle-links .group img {
+  border-radius: 9999px; 
+  object-fit: cover;
+  width:100%; height:auto;
+  aspect-ratio: 1 / 1;
+}
+
+@media (max-width: 767px) {
+ .s-block .slide--one-sixth {
+    width: 37.8% !important ;
+  }
+ }
+   @media (max-width: 767px) {
+.simplified-products .s-products-slider-card, .simplified-products .offer-slide {
+    width: 57%;
+  }
+}
+.s-block--fixed-banner .banner--fixed img {
+  width: 100%;
+  height: auto;
+  border-radius: 13px !important;
+  aspect-ratio: 7 / 3;
+}
+.main-menu #offers a,
+.total-price {
+  color: var(--store-text-primary);
+}
+.carousel-slider .s-slider-block__title-nav {
+  display: flex;
+}
+.s-slider-block__title-left {
+  flex-direction: row-reverse;
+}
+.s-slider-block__title-nav svg {
+  width: auto;
+  height: auto;
+ fill: var(--store-text-primary);
+  border-width: var(--border-width);
+  border-radius: 9999px;
+  border-color: var(--edge-color);
+}
+.sicon-quote {
+  opacity: 1;
+}
+
+    .simplified-products .s-products-slider-card .product-card--simplified .product-card__image, .simplified-products .s-products-list-wrapper .product-card--simplified .product-card__image, .simplified-products .offer-slide .product-card--simplified .product-card__image {
+        height: 17.3rem;
+        max-height: 17rem;
+    }
+
+
+.simplified-products .s-products-slider-card .product-card--simplified .product-card__promotion, .landing-page .s-products-slider-card .product-card__promotion, .simplified-products .s-products-list-wrapper .product-card--simplified .product-card__promotion, .landing-page .s-products-list-wrapper .product-card__promotion, .simplified-products .offer-slide .product-card--simplified .product-card__promotion {
+    top: auto;
+    top: 1rem;
+    bottom: initial;
+    left: auto;
+    left: initial;
+    right: 0;
+}
+ 
+.s-block--about p,.s-block--about h2 {
+    color: #fff
+}
+body.product-single label.s-product-options-option-label small ,.s-product-options-option-label small {
+    font-size: 0;
+    display: none;
+}
+
+.product-form {
+    padding: 0 0 1rem;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    width: 98%;
+}
+
+.product-single__inner.col-xl-9.col-lg-12.col-md-12.col-12.lg\:\!w-4\/4.w-full {
+    background: #FAFAFA;
+}
+
+.s-slider-thumbs .s-slider-thumbs-container .swiper-slide {
+    width: 10px !important;
+    height: 10px;
+    border-radius: 999999px;
+    background: #909090 !important;
+    margin: 5px 7px;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+}
+
+.s-slider-thumbs .s-slider-swiper-wrapper.swiper-wrapper {
+    justify-content: center;
+}
+
+img.object-cover.w-full.h-full.bg-gray-100.rounded-md.overflow-hidden {
+    display: none;
+}
+
+[dir=rtl] .s-slider-thumbs-container {
+    padding-left: 0;
+}
+
+.s-slider-thumbs .s-slider-thumbs-container .swiper-slide.swiper-slide-thumb-active:after {
+    --tw-ring-color: #c7c7c7;
+}
+
+@media (max-width: 767px) {
+    .product-single__info {
+        margin: auto 0 0 0;
+    }
+}
+
+.product-single__slider.col-lg-7.col-md-12.col-12.w-full.lg\:\!w-2\/4.px-\[15px\].lg\:sticky.md\:top-\[65px\].md\:h-fit.mb-5 {
+    padding: 0;
+}
+
+.product-single .product-single__main-media .s-slider-thumbs .s-slider-thumbs-container .swiper-slide:after {
+    border-radius: 9999999999px;
+}
+
+.slide--one-fourth.swiper-slide.swiper-slide-visible {
+    background: #90909069 !important;
+}
+
+.s-slider-thumbs .s-slider-thumbs-container .swiper-slide.swiper-slide-thumb-active:after,.slide--one-fourth.swiper-slide.swiper-slide-thumb-active {
+    background: #000000 !important;
+    --tw-ring-color: #000000;
+}
+
+@media (max-width: 767px) {
+}
+
+.product-single__info ,.product-single__info form#product-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-single__info .flex.items-center.justify-between.mb-5 {
+    order: 1;
+}
+
+.product-single__info .text-store-text-primary {
+    order: 2;
+    margin: 10px 0 0 0;
+}
+
+.product-single__info .whitespace-nowrap {
+    order: 3
+}
+
+.product-single__info .flex.flex-col.space-y-5.mb-5 {
+    order: 4
+}
+
+.product-single__info salla-installment.hydrated.full-widget {
+    order: 6;
+    margin: 15px 0;
+    display:flex!important;
+}
+
+.product-single__info .product-single-top-description.mb-5 {
+    order: 5;
+}
+
+.product-single__info form#product-form {
+    order: 9;
+}
+
+.flex.flex-col.space-y-5.mb-5 {
+    order: 9
+}
+
+salla-installment.hydrated.full-widget {
+    order: 10
+}
+
+.product-single-top-description.mb-5 {
+    order: 11
+}
+
+form#product-form {
+    order: 12
+}
+
+section.bg-storeBG.p-5.rounded-md.mb-5 {
+    order: 1;
+    margin: 0;
+}
+
+section.bg-storeBG.p-5.rounded-md.mb-5:has(div[class*="sm:grid sm:grid-cols-2 sm:gap-4 sm:items-start"]) {
+    order: 3;
+}
+
+.s-product-options-wrapper {
+    order: 2
+}
+
+.bg-storeBG.p-5.rounded-md.rounded-b-none.flex.sm\:pb-0 {
+    order: 3;
+}
+
+salla-rating-stars.hydrated {
+    order: 3;
+    margin: 6px 0 9px 0;
+}
+
+@media (min-width: 767px) {
+    .s-product-options-wrapper {
+        order: 2;
+    }
+
+    section.bg-storeBG.p-5.rounded-md.mb-5 {
+        order: 1;
+        margin: 0;
+    }
+
+    section.bg-storeBG.p-5.rounded-md.mb-5:has(div[class*="sm:grid sm:grid-cols-2 sm:gap-4 sm:items-start"]) {
+        order: 3;
+    }
+
+    .bg-storeBG.p-5.rounded-md.rounded-b-none.flex.sm\:pb-0 {
+        order: 3;
+    }
+
+    section.sticky-product-bar.bg-storeBG.p-5.md.rounded-md.rounded-b-none {
+        order: 6;
+    }
+
+    .is-sticky-product-bar .sticky-product-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 4;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: .625rem;
+        padding: .75rem;
+    }
+
+    .sticky-product-bar__quantity.center-between.mb-5 {
+        width: 100%;
+    }
+}
+
+.s-product-options-option-label b {
+    font-size: 15px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    font-weight: 400;
+}
+
+button.grow.flex.items-center.new-lang-btn {
+    display: none;
+}
+
+.sm\:grid.sm\:grid-cols-2.sm\:gap-4.sm\:items-start b.block {
+    display: none;
+}
+
+.product-single__info .text-store-text-primary b.block:after {
+    content: 'السعر شامل الضريبة';
+    color: #007bff;
+    display: table;
+    font-size: 11px;
+    line-height: 1;
+    margin: 3px 0 0;
+    font-weight: 400;
+}
+
+section.bg-storeBG.p-5.rounded-md.mb-5 .center-between {
+    flex-direction: row-reverse;
+}
+
+.product-more-info .tab-content .tab-pane {
+    padding: 15px 0;
+}h2.text-store-text-primary.font-bold.text-xl.inline-block {
+    margin: 5px 0 0;
+}
+
+
+.tamara-product-widget .tamara-logo {
+    left: 20p
+    x;
+    margin: 0 !important;
+    position: absolute;
+    top: -18px!important;
+}
+
+*,
+::after,
+::before {
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+.inherited-styles-for-exported-element {
+    color: #231f1e;
+    font-family: 'DINNextLTArabic-Regular', -apple-system, BlinkMacSystemFont;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    tab-size: 4;
+}
+
+:disabled {
+    cursor: default;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+section.sticky-product-bar.bg-storeBG.p-5.md.rounded-md.rounded-b-none {
+    order: 3;
+}
+
+img {
+  pointer-events: none;
+  user-select: none;
+}
+
+#product-filter option[value="bestSell"] {
+    display: none !important;
+}
+
+
+#tabbyPromoWrapper,
+.tamara-product-widget {
+border-radius:12px;
+max-width: var(--max-width);
+  min-width: var(--min-width);
+  max-height: var(--max-height);
+  min-height: var(--min-height);
+      position: relative;
+      line-height: var(--max-width);
+      font-size:var(--font-size);
+      font-weight: var(--font-weight);
+      border-width:var(--border-width);
+      border-style:var(--border-style);
+      background-color: var(--background-color);
+      direction: rtl;
+      text-align: var(--text-align);
+     font-family: 'var(--font-family)';
+     }
+  .tamara-product-widget {
+  border-color: #de9681 !important;
+  color: #000 ;
+  display:block; 
+  padding: 1rem 0.625rem 0.625rem !important;
+}
+
+#tabbyPromoWrapper {
+    border-color: #3bffc4 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content:  space-between !important;
+    overflow:hidden ;
+padding:0;
+}
+
+salla-installment.hydrated.full-widget {
+    margin: 15px 0;
+    order: 6;
+}
+
+salla-installment.hydrated {
+  border-radius:0.75rem ;
+  align-items:center;
+  order: 6;
+  display: flex;
+    justify-content:space-between;
+  gap: 0.625em;
+  width: 99%;
+  margin: 1rem 0rem;
+  position:relative;
+  font-family: 'DINNextLTArabic-Regular';
+}
+
+:root {
+  --max-width: 48% !important;
+  --min-width: 48% !important;
+  --max-height: 7.7rem;
+  --min-height: 6.45rem;
+  --line-height: 1.6;
+  --font-size:12.8px;
+  --font-weight: 400;
+  --border-width: 1px;
+  --border-style: solid;
+  --background-color: #fff;
+  --direction: rtl;
+  --text-align: start;
+  --font-family: 'DINNextLTArabic-
+  --tabby-logo: url("https://media.zid.store/static/tabby2.svg")
+}
+
+#tabbyPromoWrapper .tabby-logo {
+position:absolute;
+top: -1rem!important;
+left:15px!important;
+width:73px!important;
+height:28px!important;
+}
+
+
+  salla-installment.hydrated::before {
+    width: 73px;
+    height: auto;
+    position: absolute;
+    top: -18px !important;
+    left: 15px !important;
+    content: var(--tabby-logo)!important;
+        z-index: 10;
+        object-fit:contain;
+    }
+ 
+    @media (max-width: 767px) {
+ #tabbyPromo * {
+ padding:0px 0px!important;
+  font-size: 11px;
+  font-weight: 400;
+  border: 0px !important;
+  line-height:1.5;
+    background-color: #fff!important;
+  cursor: pointer;
+  width:124% ;
+  height: auto;
+  font-family: 'DINNextLTArabic-Regular';
+}}
+
+    @media (max-width: 768px) {
+ #tabbyPromo *{
+ padding:0px 0px!important;
+  font-size: 11px;
+  font-weight: 500;
+  display:flex; flex-direction:column-reverse;
+  justify-content:space-between;
+  text-align:center!important;
+  line-height:2.5 !important;
+    background-color: #000000!important;
+  cursor: pointer;
+  width:100% ;
+  height: 100px;
+    font-family: 'DINNextLTArabic-Regular';
+    text-decoration:underline;
+}}
+[class*=styles__tabby] {
+visibility: hidden!important;
+
+}
+
+.swiper-slide {
+  width: 407px;
+  margin-left: 30px;
+}
+
+.swiper-slide:focus {
+  outline: 2px solid blue; 
+}
+
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
